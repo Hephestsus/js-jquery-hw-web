@@ -1,49 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Мини программа jQuery</title>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <style>
-        .text {
-            margin: 5px 0;
-            cursor: pointer; 
-            display: none;   
-            font-size: 100px;
-        }
-
-        .red { color: red; }
-        .blue { color: blue; }
-        .green { color: green; }
-        .orange { color: orange; }
-        .purple { color: purple; }
-    </style>
+    <title>JS Site</title>
 </head>
 <body>
-
-    <h2>Tab the button to show the texts</h2>
-
-    <button id="showBtn">Show text</button>
-
-    <p class="text red">First text</p>
-    <p class="text blue">Second test</p>
-    <p class="text green">Third</p>
-    <p class="text orange">fourth</p>
-    <p class="text purple">fifth</p>
-
-    <script>
-        
-        $("#showBtn").click(function () {
-            $(".text").toggle(); 
-        });
-
-       
-        $(".text").click(function () {
-            $(this).toggle();
-        });
-    </script>
-
+<script src="script.js"></script>
 </body>
 </html>
